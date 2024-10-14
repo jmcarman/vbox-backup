@@ -25,3 +25,9 @@ fi
 
 # Copy the source to the destination
 cp -r /media/candice/KINGSTON/OSL645/Ubuntu-jmcarman/ /mnt/FA4E05CC4E05831D/Documents/Jason\ Documents/Backups/
+
+# Eject the external SSD
+eject /media/candice/KINGSTON/
+
+# Tell the user the backup is complete
+echo "Backup complete. You may eject your SSD."
